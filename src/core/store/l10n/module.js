@@ -16,6 +16,13 @@ const enabledLocales = [
     name: 'German',
     native: 'Deutsch',
   },
+  {
+    code: 'hi',
+    aliases: ['hi-in', 'hi-hi'],
+    language: 'hi',
+    name: 'Hindi',
+    native: 'हिन्दी',
+  },
 ];
 
 const getCode = locale => enabledLocales.find(l => (
